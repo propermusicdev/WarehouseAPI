@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WarehouseAPI:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="samplews.war">
+      <element id="artifact" artifact-name="WarehouseAPI:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jconn4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
